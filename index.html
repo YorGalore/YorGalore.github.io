@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Counter Components Demo</title>
-    <script src="counter-display.js"></script>
-    <script src="counter-controls.js"></script>
-    <script src="combined-counter.js"></script>
+    <script src="counter-display.js" defer></script>
+    <script src="counter-controls.js" defer></script>
+    <script src="combined-counter.js" defer></script>
     <script src="counter-display-b.js" defer></script>
     <script src="counter-controls-b.js" defer></script>
     <script src="combined-counter-b.js" defer></script>
@@ -54,11 +54,11 @@
             <nama-nim></nama-nim>
         </div>
         </div>
-        
+
         <div class="section">
             <h2>Komponen 1 & 2 - Separated</h2>
             <div class="demo-container vertical">
-                <counter-display id="display" title="Counter" value="50"></counter-display>
+                <counter-display id="display" title="Counter" value="00"></counter-display>
                 <counter-controls id="controls"></counter-controls>
             </div>
         </div>
@@ -66,7 +66,7 @@
         <div class="section">
             <h2>Komponen 3 - Combined Counter</h2>
             <div class="demo-container">
-                <combined-counter title="Combined" value="50"></combined-counter>
+                <combined-counter title="Combined" value="00"></combined-counter>
             </div>
         </div>
 
